@@ -1,0 +1,54 @@
+main {
+    padding: 100px 0;
+}
+
+/* Image bannière de l'article*/
+
+.banner {
+    height: 60vh;
+    width: 100%;
+    border-radius: 0 0 20px 20px;
+    background-image: url("arnaque.webp");
+    background-position: center;
+    background-size: cover;
+}
+.info-article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+}
+
+.info-article .auteur, .info-article .date {
+    border-radius: 10px;
+    padding: 9px;
+    background-color: white;
+}
+
+.titre {
+    padding: 30px 0;
+    font-size: 50px;
+}
+
+.contenu {
+    padding: 0 100px;
+    font-size: 30px;
+    line-height: 1.5;
+    color: black;
+    text-align: left;
+}
+
+.contenu p{
+    padding: 100px 0;
+}
+
+.contenu .erreur {
+    height: 50vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: url("./articles/no-index.png");
+}
+
+
